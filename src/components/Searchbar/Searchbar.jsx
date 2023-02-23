@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import PropTypes from 'prop-types';
 import css from './Searchbar.module.css';
 // import { Button } from './Button/Button';
 
-export class Searchbar extends Component {
+export class Searchbar extends React.Component {
+  // static propTypes = {
+  //   id: PropTypes.number,
+  //   webformatURL: PropTypes.string,
+  //   tags: PropTypes.string,
+  // };
   render() {
     return (
       <>
@@ -25,6 +30,3 @@ export class Searchbar extends Component {
     );
   }
 }
-
-// Searchbar.propTypes = {
-// };
